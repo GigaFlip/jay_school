@@ -48,7 +48,8 @@ class Home extends CI_Controller {
         $driving_license=$this->input->post('driving_license',true);
         $blood=$this->input->post('blood',true);
 
-
+        error_log("In processTeachers - after blood group");
+        
         $fathername=$this->input->post('fathername',true);
         $fatheroccu=$this->input->post('fatheroccu',true);
         $mothername=$this->input->post('mothername',true);
@@ -62,12 +63,15 @@ class Home extends CI_Controller {
         $spousedesignation=$this->input->post('spousedesignation',true);
         $spouseorganization=$this->input->post('spouseorganization',true);
 
+        error_log("In processTeachers - after spouse org");
+        
         $lang_speak=$this->input->post('speak',true);
         $lang_read=$this->input->post('read',true);
         $lang_write=$this->input->post('write',true);
         $res_addr=$this->input->post('res_addr',true);
         $per_addr=$this->input->post('per_addr',true);
         $child_details=$this->input->post('child',true);
+        
         /** Qualification part */
         $highest_q=$this->input->post('highest_qualification',true);
         $professioanl_t=$this->input->post('professional_training',true);
@@ -91,6 +95,8 @@ class Home extends CI_Controller {
         $criminal_conviction=$this->input->post('criminal_conviction',true);
         $work_rights=$this->input->post('work_rights',true);
 
+        error_log("In processTeachers - before education array - school");
+        
         $highschool_arr=array(
           'main_subjects'=>$highschool[0],
           'school'=>$highschool[1],
@@ -127,6 +133,8 @@ class Home extends CI_Controller {
             'division'=>$pg[5]
         );
 
+        error_log("In processTeachers - before education array - mphil");
+        
         $mphil_arr=array(
             'main_subjects'=>$mphil[0],
             'school'=>$mphil[1],
@@ -172,6 +180,8 @@ class Home extends CI_Controller {
             'division'=>$ctet[5]
         );
 
+        error_log("In processTeachers - before education array - other");
+        
         $otherq_arr=array(
             'main_subjects'=>$otherq[0],
             'school'=>$otherq[1],
@@ -199,6 +209,8 @@ class Home extends CI_Controller {
           $lang_write[2]
         );
 
+        error_log("In processTeachers - after lang");
+        
         $res_addr_arr=array(
             'doorno'=>$res_addr[0],
             'street'=>$res_addr[1],
@@ -208,6 +220,9 @@ class Home extends CI_Controller {
             'pin'=>$res_addr[5],
             'tel_no'=>$res_addr[6]
         );
+
+        error_log("In processTeachers - after res addr");
+        
         $perm_addr_arr=array(
             'doorno'=>$per_addr[0],
             'street'=>$per_addr[1],
@@ -217,6 +232,8 @@ class Home extends CI_Controller {
             'pin'=>$per_addr[5],
             'tel_no'=>$per_addr[6]
         );
+        
+        error_log("In processTeachers - after perm addr");
 
         $child_details_arr=array(
             'child_name'=>$child_details[0],
@@ -246,6 +263,9 @@ class Home extends CI_Controller {
             'contact'=>$references[3],
         );
 
+        error_log("In processTeachers - after ref.");
+        
+        error_log("In processTeachers - before load model");
 
         $this->load->model('user_model');
         $insert_array=array(
