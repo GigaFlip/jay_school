@@ -173,7 +173,7 @@
                                     class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
                             <input name="dob" class="input-md textinput textInput form-control" id="dob" maxlength="30"
-                                   style="margin-bottom: 10px" type="date" required/>
+                                   style="margin-bottom: 10px" type="date" />
                         </div>
                     </div>
 
@@ -232,14 +232,14 @@
                                     class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
                             <input class="input-md emailinput form-control" id="caste" name="caste"
-                                   placeholder="caste name" style="margin-bottom: 10px" type="text" required/>
+                                   placeholder="caste name" style="margin-bottom: 10px" type="text" />
                         </div>
                     </div>
                     <div id="community_category" class="form-group required">
                         <label for="community_category" class="control-label col-md-4  requiredField">Community<span
                                     class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
-                            <select name="community" class="form-control" style="margin-bottom: 10px" required>
+                            <select name="community" class="form-control" style="margin-bottom: 10px" >
                                 <option value="-1">--Select community--</option>
                                 <option value="SC">SC</option>
                                 <option value="ST">ST</option>
@@ -271,14 +271,14 @@
                                     class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
                             <input class="input-md emailinput form-control" id="nationality" name="nationality"
-                                   placeholder="Your Nationality " value="Indian" style="margin-bottom: 10px" type="text" required/>
+                                   placeholder="Your Nationality " value="Indian" style="margin-bottom: 10px" type="text" />
                         </div>
                     </div>
                     <div id="marital_status" class="form-group required">
                         <label for="id_username" class="control-label col-md-4  requiredField">Marital Status<span
                                     class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
-                            <select name="marital_status" class="form-control" style="margin-bottom: 10px" required>
+                            <select name="marital_status" class="form-control" style="margin-bottom: 10px" >
                                 <option value="-1">--Select Marital Status--</option>
                                 <option value="Married">Married</option>
                                 <option value="Unmarried">Unmarried</option>
@@ -317,7 +317,7 @@
                                     class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
                             <input class="input-md emailinput form-control" id="doorno" placeholder="House/Door/Flat No"
-                                   style="margin-bottom: 10px" type="text" name="res_addr[]" required/>
+                                   style="margin-bottom: 10px" type="text" name="res_addr[]" />
                         </div>
                     </div>
 
@@ -326,7 +326,7 @@
                                     class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
                             <input class="input-md emailinput form-control" name="res_addr[]" id="street_name"
-                                   placeholder="Street/Locality " style="margin-bottom: 10px" type="text" required/>
+                                   placeholder="Street/Locality " style="margin-bottom: 10px" type="text" />
                         </div>
                     </div>
 
@@ -335,7 +335,7 @@
                             <span class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
                             <input class="input-md emailinput form-control" name="res_addr[]" id="sub_district"
-                                   placeholder="Sub-District/District " style="margin-bottom: 10px" type="text" required/>
+                                   placeholder="Sub-District/District " style="margin-bottom: 10px" type="text" />
                         </div>
                     </div>
 
@@ -344,7 +344,7 @@
                                     class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
                             <input class="input-md emailinput form-control" name="res_addr[]" id="city_name" placeholder="City name"
-                                   style="margin-bottom: 10px" type="text" required/>
+                                   style="margin-bottom: 10px" type="text" />
                         </div>
                     </div>
 
@@ -354,7 +354,7 @@
                                     class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
                             <input class="input-md emailinput form-control" name="res_addr[]" id="state_name" placeholder="State Name "
-                                   style="margin-bottom: 10px" type="text" required/>
+                                   style="margin-bottom: 10px" type="text" />
                         </div>
                     </div>
 
@@ -364,7 +364,7 @@
                                     class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
                             <input class="input-md emailinput form-control" name="res_addr[]" id="pin_code" placeholder="Pincode "
-                                   style="margin-bottom: 10px" type="number" required/>
+                                   style="margin-bottom: 10px" type="number" />
                         </div>
                     </div>
 
@@ -373,7 +373,7 @@
                             STD Code)/ Alternative Mobile No.<span class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
                             <input class="input-md emailinput form-control" id="alttel" name="res_addr[]"
-                                   placeholder="Alternate Phone No. " style="margin-bottom: 10px" type="text" required/>
+                                   placeholder="Alternate Phone No. " style="margin-bottom: 10px" type="text" />
                         </div>
                     </div>
 
@@ -388,7 +388,7 @@
                                     class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
                             <input class="input-md emailinput form-control" id="p_doorno" name="per_addr[]"
-                                   placeholder="House/Door/Flat No" style="margin-bottom: 10px" type="text" required/>
+                                   placeholder="House/Door/Flat No" style="margin-bottom: 10px" type="text" />
                         </div>
                     </div>
 
@@ -397,7 +397,7 @@
                                     class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
                             <input class="input-md emailinput form-control" id="p_street_name" name="per_addr[]"
-                                   placeholder="Street/Locality " style="margin-bottom: 10px" type="text" required/>
+                                   placeholder="Street/Locality " style="margin-bottom: 10px" type="text" />
                         </div>
                     </div>
 
@@ -406,7 +406,7 @@
                             <span class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
                             <input class="input-md emailinput form-control" id="p_sub_district" name="per_addr[]"
-                                   placeholder="Sub-District/District " style="margin-bottom: 10px" type="text" required/>
+                                   placeholder="Sub-District/District " style="margin-bottom: 10px" type="text" />
                         </div>
                     </div>
 
@@ -416,7 +416,7 @@
                                     class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
                             <input class="input-md emailinput form-control" id="p_city_name" placeholder="City Name" name="per_addr[]"
-                                   style="margin-bottom: 10px" type="text" required/>
+                                   style="margin-bottom: 10px" type="text" />
                         </div>
                     </div>
 
@@ -426,7 +426,7 @@
                                     class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
                             <input class="input-md emailinput form-control" id="p_state_name" placeholder="State Name " name="per_addr[]"
-                                   style="margin-bottom: 10px" type="text" required/>
+                                   style="margin-bottom: 10px" type="text" />
                         </div>
                     </div>
 
@@ -436,7 +436,7 @@
                                     class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
                             <input class="input-md emailinput form-control" id="p_pin_code" placeholder="Pincode " name="per_addr[]"
-                                   style="margin-bottom: 10px" type="number" required/>
+                                   style="margin-bottom: 10px" type="number" />
                         </div>
                     </div>
 
@@ -445,7 +445,7 @@
                             No.(with STD Code)/ Alternative Mobile No.<span class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
                             <input class="input-md emailinput form-control" id="p_alttel" name="per_addr[]"
-                                   placeholder="Phone No." style="margin-bottom: 10px" type="text" required/>
+                                   placeholder="Phone No." style="margin-bottom: 10px" type="text" />
                         </div>
                     </div>
 
@@ -966,7 +966,7 @@
                                         <span class="asteriskField">*</span> </label>
                                     <div class="controls col-md-8 ">
                                         <input class="input-md emailinput form-control" id="years_work_exp" name="exp_years"
-                                               placeholder="Years of work experience" style="margin-bottom: 10px" type="number" required/>
+                                               placeholder="Years of work experience" style="margin-bottom: 10px" type="number" />
                                     </div>
                                 </div>
                             </td>
@@ -1089,7 +1089,7 @@
                                     class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
                             <input class="input-md emailinput form-control" id="computer_pref" name="computer_pref"
-                                   placeholder="Describe your computer skills " style="margin-bottom: 10px" type="text" required/>
+                                   placeholder="Describe your computer skills " style="margin-bottom: 10px" type="text" />
                         </div>
                     </div>
 
@@ -1098,7 +1098,7 @@
                                     class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
                             <input class="input-md emailinput form-control" id="non_academic_interest" name="non_academic"
-                                   placeholder="Please list your non-academic interests" style="margin-bottom: 10px" type="text" required/>
+                                   placeholder="Please list your non-academic interests" style="margin-bottom: 10px" type="text" />
                         </div>
                     </div>
 
@@ -1136,7 +1136,7 @@
                                     class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
                             <textarea class="input-md emailinput form-control" id="description" name="description"
-                                      placeholder="Briefly describe your expectation for this role and how you hope to contribute" style="margin-bottom: 10px" required ></textarea>
+                                      placeholder="Briefly describe your expectation for this role and how you hope to contribute" style="margin-bottom: 10px" ></textarea>
                         </div>
                     </div>
 
@@ -1157,7 +1157,7 @@
                                     class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
                             <input class="input-md emailinput form-control" id="work_rights" name="work_rights"
-                                   placeholder="Are there any restrictions on your right to work in India? " style="margin-bottom: 10px" type="text" required/>
+                                   placeholder="Are there any restrictions on your right to work in India? " style="margin-bottom: 10px" type="text" />
                         </div>
                     </div>
 

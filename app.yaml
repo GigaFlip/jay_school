@@ -1,0 +1,13 @@
+runtime: php55
+api_version: 1
+ 
+handlers:
+ 
+- url: /user_guide
+  static_dir: user_guide
+
+- url: /assets
+  static_dir: assets 
+ 
+- url: /.*
+  script: index.php
