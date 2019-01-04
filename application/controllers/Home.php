@@ -26,6 +26,7 @@ class Home extends CI_Controller {
 
     public function processTeachers()
     {
+        error_log("In processTeachers");
         $post_apply=$this->input->post('post_for',true);
         $subj1=$this->input->post('subject1',true);
         $subj2=$this->input->post('subject2',true);
@@ -313,6 +314,7 @@ class Home extends CI_Controller {
 
         );
 
+        error_log("Before insertCommon");
         $iid=$this->user_model->insertCommon('teacher_admission',$insert_array);
         if($iid>0){
             $result['status']="success";

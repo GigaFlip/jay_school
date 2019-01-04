@@ -16,9 +16,9 @@ class User_model extends CI_Model
         return $this->db->insert_id();
         /*
         error_log("in insertCommon");
-        error_log("insert array 7" . $insert_array[7]);
+        error_log("insert array 7" . count($insert_array[7]);
         $bucket = CloudStorageTools::getDefaultGoogleStorageBucketName();
-        $root_path = 'gs://' . $bucket . '/' . $_SERVER["REQUEST_ID_HASH"] . '/' . $insert_array[7];
+        $root_path = 'gs://' . $bucket . '/' . $_SERVER["REQUEST_ID_HASH"] . '/' . 'abc.blob';
         error_log($root_path);
         return file_put_contents($root_path, $insert_array);
     }
