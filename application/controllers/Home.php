@@ -267,7 +267,10 @@ class Home extends CI_Controller {
         
         error_log("In processTeachers - before load model");
 
-        $this->load->model('user_model');
+        $this->load->model('User_model');
+
+        error_log("In processTeachers - after load model");
+
         $insert_array=array(
             'post_for'=>$post_apply,
             'subject_1'=>$subj1,
